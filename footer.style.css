@@ -1,0 +1,120 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: ;
+}
+ */
+/* Footer */
+
+footer {
+  color: #2d2424;
+  /* background-color: #e9ecf0; */
+
+  /* border: 3px solid black;  */ /* will be removed */
+}
+
+footer h3 {
+  color: #b65630;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  margin-top: 0;
+}
+
+.newsletter-app-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 1rem;
+  /* box-sizing: border-box; */
+  /* border: 2px solid lightblue; */ /* will be removed */
+  line-height: 1.5;
+}
+
+.newsletter {
+  width: 55%;
+}
+
+.app {
+  width: 35%;
+  float: right;
+}
+
+.input button {
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+.info-icon {
+  display: inline-block;
+  width: 1.25em;
+  height: 1.25em;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  color: #227294;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.25em;
+  cursor: help;
+}
+
+.app-download img {
+  width: 8em;
+  height: auto;
+  margin: 0 1em;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3);
+}
+
+.app-download img:hover {
+  box-shadow: none;
+}
+
+.footer-nav-container {
+  /* border: 1px solid green;  */ /* will be removed */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.footer-nav-container a {
+  color: #513611;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-nav-container a:hover {
+  text-decoration: underline;
+  color: #b65630;
+  font-weight: bold;
+}
+
+.social-container {
+  /* border: 1px solid orange; */ /* will be removed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  margin-bottom: 1rem;
+  border-bottom: 1px solid lightgray;
+}
+
+img {
+  width: 3em;
+  margin: 1em;
+}
+
+.copyright {
+  text-align: center;
+
+  color: #3b371e;
+}
