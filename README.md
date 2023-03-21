@@ -7,4 +7,4 @@
 | Andreea       | Creative Director/Main|
 | Kim           | Footer                |
 | Valeri        | Header/Nav            |
-| David         | Supervisor/Main       |
+| David         | Supervisor/Main       | 
