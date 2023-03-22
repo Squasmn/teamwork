@@ -68,11 +68,12 @@ footer h3 {
   width: 8em;
   height: auto;
   margin: 0 1em;
-  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3); */
 }
 
 .app-download img:hover {
   box-shadow: none;
+  box-shadow: 4px 4px 3px rgba(206, 138, 49, 0.747);
 }
 
 .footer-nav-container {
@@ -117,4 +118,28 @@ img {
   text-align: center;
 
   color: #3b371e;
+}
+
+.btn {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+}
+
+.btn button {
+  width: 4em;
+  height: 4em;
+  margin-bottom: 5px;
+  border-radius: 30%;
+  border: none;
+  background-color: #42403f;
+}
+
+.btn button:hover {
+  box-shadow: 4px 4px 3px rgba(202, 131, 39, 0.5);
+  background-color: #db6f44;
 }
