@@ -1,9 +1,10 @@
 footer {
-  color: #2d2424;
+  background-color: #ecf2f7;
+  padding: 1rem;
 }
 
 footer h3 {
-  color: #b65630;
+  color: rgb(151, 124, 50);
   font-family: "Times New Roman", Times, serif;
   font-weight: bolder;
   margin-top: 0;
@@ -13,11 +14,9 @@ footer h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  border-bottom: 1px solid lightgray;
+  align-items: flex-start;
+  border-bottom: 1px solid gray;
   margin-bottom: 1rem;
-
   line-height: 1.5;
 }
 
@@ -56,16 +55,15 @@ footer h3 {
 
 .app-download img:hover {
   box-shadow: none;
-  box-shadow: 4px 4px 3px rgba(206, 138, 49, 0.747);
+  box-shadow: 4px 4px 3px rgb(173, 154, 42);
 }
 
 .footer-nav-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 1em;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid lightgray;
+  padding-bottom: 1em;
+  border-bottom: 1px solid gray;
 }
 
 .footer-nav-container a {
@@ -76,7 +74,7 @@ footer h3 {
 
 .footer-nav-container a:hover {
   text-decoration: underline;
-  color: #b65630;
+  color: #b68d15;
   font-weight: bold;
 }
 
@@ -86,19 +84,16 @@ footer h3 {
   align-items: center;
   flex-direction: row;
 
-  margin-bottom: 1rem;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid gray;
 }
 
-img {
-  width: 3em;
-  margin: 1em;
+.social-container i {
+  padding: 1rem;
 }
 
 .copyright {
   text-align: center;
-
-  color: #3b371e;
+  color: #000000;
 }
 
 .btn {
