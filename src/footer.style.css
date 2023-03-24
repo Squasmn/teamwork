@@ -1,20 +1,5 @@
-/* * {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: ;
-}
- */
-/* Footer */
-
 footer {
   color: #2d2424;
-  /* background-color: #e9ecf0; */
-
-  /* border: 3px solid black;  */ /* will be removed */
 }
 
 footer h3 {
@@ -32,8 +17,7 @@ footer h3 {
   padding: 1rem;
   border-bottom: 1px solid lightgray;
   margin-bottom: 1rem;
-  /* box-sizing: border-box; */
-  /* border: 2px solid lightblue; */ /* will be removed */
+
   line-height: 1.5;
 }
 
@@ -68,7 +52,6 @@ footer h3 {
   width: 8em;
   height: auto;
   margin: 0 1em;
-  /* box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3); */
 }
 
 .app-download img:hover {
@@ -77,7 +60,6 @@ footer h3 {
 }
 
 .footer-nav-container {
-  /* border: 1px solid green;  */ /* will be removed */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -99,7 +81,6 @@ footer h3 {
 }
 
 .social-container {
-  /* border: 1px solid orange; */ /* will be removed */
   display: flex;
   justify-content: center;
   align-items: center;

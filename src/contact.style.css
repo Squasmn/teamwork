@@ -1,26 +1,11 @@
-:root {
-}
-
-body {
-}
 
 main {
-  /* border: 3px solid green; */ /* will be removed */
+ 
   display: flex;
   justify-content: space-between;
   margin: 0 5em;
 }
 
-.main-content {
-  /* border: 3px solid blue; */ /* will be removed */
-}
-
-.sidebar {
-  /* border: 3px solid tomato; */ /* will be removed */
-
-  padding: 1rem;
-
-  /* align-self: center; */
 }
 
 .mandatory::after {
@@ -30,14 +15,6 @@ main {
 ul {
   list-style-type: none;
 }
-
-/* button {
-  color: #b65630;
-  font-weight: bold;
-  border-radius: 1em;
-  border: none;
-  padding: 1em;
-} */
 
 .cta {
   position: relative;
