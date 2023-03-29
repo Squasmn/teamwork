@@ -4,21 +4,25 @@ main {
   margin: 5rem;
 }
 
-.main-content {
+.k-main-content {
   line-height: 1.5;
   width: 70%;
 }
 
-.mandatory::after {
+.k-mandatory::after {
   content: " *";
 }
 
-ul {
+.k-main-content ul {
   list-style-type: none;
   line-height: 2;
 }
 
-.cta {
+.k-btn-container {
+  margin-top: 2rem;
+}
+
+.k-cta {
   position: relative;
   margin: auto;
   padding: 12px 18px;
@@ -27,7 +31,7 @@ ul {
   background: none;
 }
 
-.cta:before {
+.k-cta:before {
   content: "";
   position: absolute;
   top: 0;
@@ -40,7 +44,7 @@ ul {
   transition: all 0.3s ease;
 }
 
-.cta span {
+.k-cta span {
   position: relative;
   font-family: "Ubuntu", sans-serif;
   font-size: 18px;
@@ -49,7 +53,7 @@ ul {
   color: #234567;
 }
 
-.cta svg {
+.k-cta svg {
   position: relative;
   top: 0;
   margin-left: 10px;
@@ -62,39 +66,44 @@ ul {
   transition: all 0.3s ease;
 }
 
-.cta:hover:before {
+.k-cta:hover:before {
   width: 100%;
   background: #b1dae7;
 }
 
-.cta:hover svg {
+.k-cta:hover svg {
   transform: translateX(0);
 }
 
-.cta:active {
+.k-cta:active {
   transform: scale(0.95);
 }
 
-.sidebar {
+.k-sidebar {
   width: 25%;
 }
 
-.sidebar h3 {
+.k-sidebar h3 {
   color: #b65630;
 }
 
-.sidebar-hotline,
-.sidebar-address {
+.k-sidebar-hotline,
+.k-sidebar-address {
   padding: 1em;
   border-radius: 1em;
   margin: 2em 0;
   line-height: 1.5;
 }
 
-.sidebar-hotline {
+.k-sidebar-hotline {
   background-color: #fdf4a6;
 }
 
-.sidebar-address {
+.k-sidebar-address {
   background-color: #c5f5fd;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
 }
