@@ -6,10 +6,10 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(30, 27, 27);
+  background-color: black;
   color: goldenrod;
 }
-
+/*Navbar area*/
 header {
   background-color: black;
   position: fixed;
@@ -43,7 +43,7 @@ header {
   text-decoration: underline;
   ;
 }
-
+/*Hero area*/
 .background-image {
   height: 400px;
   background: url(img/hand-and-phone.jpeg) no-repeat top/cover;
@@ -60,7 +60,10 @@ h2 {
   font-size: 100px;
   height: 10px;
 }
-
+h3 {
+  font-size: 40px;
+}
+/*Cards*/
 .cards {
   padding-top: 30px;
   padding-left: 10px;
@@ -69,7 +72,7 @@ h2 {
   display: flex;
   justify-content: space-around;
 }
-
+/*Plan-cards*/
 .card1 {
   width: 600px;
   height: 400px;
@@ -90,7 +93,7 @@ h2 {
   border-radius: 30px;
   background: url(img/busines.jpeg) no-repeat right/cover;
 }
-
+/*Phons-cards*/
 .card4 {
   display: flex;
   width: 300px;
@@ -127,7 +130,7 @@ h2 {
 
   background: url(img/flip.png) no-repeat;
 }
-
+/*APP-card*/
 .card9 {
   display: flex;
   width: 400px;
@@ -135,6 +138,7 @@ h2 {
 
   background: url(img/apk_mymtc_home_mai-transformed.png) no-repeat center/cover;
 }
+/*Butons*/
 a:visited {color: goldenrod;}
 
 .buttons {
@@ -169,7 +173,7 @@ button:hover {
 }
 
 
-/* Animation */
+/* Slicker*/
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -181,7 +185,7 @@ button:hover {
 }
 
 
-/*  Styling  */
+/*  Sticky logo-slides */
 #logos-home-page .slider {
   height: auto;
   margin: auto;
@@ -212,7 +216,7 @@ button:hover {
 }
 
 #logos-home-page .slide-track {
-  animation: scroll 20s linear infinite;
+  animation: scroll 80s linear infinite;
   display: flex;
   width: calc(250px * 14);
 }
@@ -223,7 +227,130 @@ button:hover {
   flex-direction: column;
   justify-content: center;
 }
+/*Footer*/
+footer {
+  background-color: #ecf2f7;
+  padding: 1rem;
+}
 
+footer h3 {
+  color: rgb(151, 124, 50);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  margin-top: 0;
+}
+
+.k-newsletter-app-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.k-newsletter {
+  width: 55%;
+}
+
+.k-app {
+  width: 35%;
+  float: right;
+}
+
+.k-input button {
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+.k-info-icon {
+  display: inline-block;
+  width: 1.25em;
+  height: 1.25em;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  color: #227294;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.25em;
+  cursor: help;
+}
+
+.k-app-download img {
+  width: 8em;
+  height: auto;
+  margin: 0 1em;
+}
+
+.k-app-download img:hover {
+  box-shadow: none;
+  box-shadow: 4px 4px 3px rgb(173, 154, 42);
+}
+
+.k-footer-nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 1em;
+  border-bottom: 1px solid gray;
+}
+
+.k-footer-nav-container a {
+  color: #513611;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.k-footer-nav-container a:hover {
+  text-decoration: underline;
+  color: #b68d15;
+  font-weight: bold;
+}
+
+.k-social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  border-bottom: 1px solid gray;
+}
+
+.k-social-container i {
+  padding: 1rem;
+}
+
+.k-copyright {
+  text-align: center;
+  color: #000000;
+}
+
+.k-btn {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+}
+
+.k-btn button {
+  width: 4em;
+  height: 4em;
+  margin-bottom: 5px;
+  border-radius: 30%;
+  border: none;
+  background-color: #42403f;
+}
+
+.k-btn button:hover {
+  box-shadow: 4px 4px 3px rgba(202, 131, 39, 0.5);
+  background-color: #db6f44;
+}
+
+/* Media Query */
 @media (max-width: 375px) {}
 
 @media (min-width: 376px) and (max-width: 425px) {}
