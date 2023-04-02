@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(30, 27, 27);
+    background-color: black;
     color: goldenrod;
 }
 
@@ -57,6 +57,28 @@ header {
     justify-content: center;
 }
 
+.cards {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1 {
+    display: flex;
+    width: 1000px;
+    height: 400px;
+    background: url(img/students.png) no-repeat;
+}
+
+.card2 {
+    display: flex;
+    width: 1000px;
+    height: 400px;
+    background: black}
+
 h2 {
     font-size: 100px;
     height: 10px;
@@ -70,6 +92,7 @@ h3 {
 footer {
     background-color: #ecf2f7;
     padding: 1rem;
+
 }
 
 footer h3 {
