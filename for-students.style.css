@@ -44,6 +44,28 @@ header {
     ;
 }
 
+/*Hero area*/
+.background-image {
+    height: 400px;
+    background: url(img/students.png) no-repeat top/cover;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 100px;
+    height: 10px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
 /*Footer*/
 footer {
     background-color: #ecf2f7;
