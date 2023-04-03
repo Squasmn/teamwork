@@ -45,6 +45,7 @@ header {
 
 .background-image {
   height: 600px;
+  margin-right: 40px;
   background: url(img/icon-2486501.png) no-repeat center/cover;
 }
 
@@ -237,5 +238,5 @@ footer h3 {
 
 .k-btn button:hover {
   box-shadow: 4px 4px 3px rgba(202, 131, 39, 0.5);
-  background-color: #db6f44;
+  background-color: goldenrod;
 }
