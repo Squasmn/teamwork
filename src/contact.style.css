@@ -3,6 +3,40 @@ main {
   justify-content: space-between;
   margin: 5rem;
 }
+/*Navbar area*/
+header {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%; 
+}
+
+.logo img {
+  width: 70px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 3px;
+}
+
+.nav-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 2rem;
+  margin-right: 40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: goldenrod;
+  padding: 10px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  ;
+}
 
 .k-main-content {
   line-height: 1.5;
