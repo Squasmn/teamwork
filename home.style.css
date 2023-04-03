@@ -14,7 +14,7 @@ header {
   background-color: black;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100%; 
 }
 
 .logo img {
@@ -46,7 +46,7 @@ header {
 /*Hero area*/
 .background-image {
   height: 400px;
-  background: url(img/hand-and-phone.jpeg) no-repeat top/cover;
+  background: url(./img/hand-and-phone.jpeg) no-repeat top/cover;
 }
 
 .hero-content {
@@ -347,7 +347,7 @@ footer h3 {
 
 .k-btn button:hover {
   box-shadow: 4px 4px 3px rgba(202, 131, 39, 0.5);
-  background-color: #db6f44;
+  background-color: goldenrod;
 }
 
 /* Media Query */

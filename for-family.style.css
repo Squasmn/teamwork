@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(30, 27, 27);
+    background-color: black;
     color: goldenrod;
 }
 
@@ -42,6 +42,62 @@ header {
 .nav-link:hover {
     text-decoration: underline;
     ;
+}
+/* Content */
+.hero-content {
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Plan-cards*/
+.card1 {
+    width: 690px;
+    height:600px;
+    margin-top: 100px;
+    
+    margin-left: 100px;
+    margin-right: -500px;
+    background: url(img/heads.png) no-repeat center/cover;
+}
+
+.card2 {
+    width: 600px;
+    height: 500px;
+    background-color: black;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: -100px;
+    margin-top: 200px;
+    margin-right: 30px;
+    
+}
+p { 
+    font-size: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+
+}
+
+h2 {
+    font-size: 100px;
+    height: 10px;
+}
+
+h3 {
+    font-size: 40px;
 }
 
 /*Footer*/
