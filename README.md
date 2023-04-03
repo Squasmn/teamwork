@@ -8,4 +8,3 @@
 | Kim           | Footer                |
 | Valeri        | Header/Nav            |
 | David         | Supervisor/Main       |
-| Halid         | TBA                   |
