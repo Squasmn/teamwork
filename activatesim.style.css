@@ -61,9 +61,10 @@ header {
 
 .card1 {
     width: 800px;
-    height: 700px;
+    height: 650px;
     background: black;
-    padding-top: 190px;
+    margin-top: 50px;
+    padding-top: 100px;
     margin-left: 100px;
     
 }
